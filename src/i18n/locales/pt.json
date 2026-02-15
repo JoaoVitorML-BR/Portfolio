@@ -1,0 +1,76 @@
+{
+  "header": {
+    "role": "Desenvolvedor Back-End | Java & Node.js",
+    "downloadCV": "Baixar Currículo"
+  },
+  "about": {
+    "title": "Sobre",
+    "description": "<strong>Desenvolvedor Back-End</strong> com <strong>+3 anos de experiência</strong> focado em <strong>Node.js</strong> e <strong>Java (Spring Boot)</strong>. Atuo no desenvolvimento de APIs REST e microsserviços, aplicando arquitetura limpa, mensageria, containers e cloud.",
+    "description2": "Possuo experiência complementar em <strong>Golang</strong> e <strong>Python</strong> para serviços de alta performance e automações, mas meu foco principal é entregar soluções robustas, escaláveis e seguras com Node.js e Java.",
+    "description3": "Atualmente curso <strong>Sistemas de Informação</strong> no <strong>Instituto Federal de Alagoas (IFAL)</strong> (8° período). Fora do código, sou torcedor fiel do Asa Gigante e pratico esportes para manter o equilíbrio entre mente e corpo."
+  },
+  "skills": {
+    "title": "Skills",
+    "mainLanguages": "Linguagens Principais",
+    "backendFrameworks": "Frameworks Back-End",
+    "techDevops": "Tecnologias & DevOps",
+    "databases": "Bancos de Dados",
+    "otherTech": "Outras Tecnologias"
+  },
+  "experience": {
+    "title": "Experiência",
+    "compass": {
+      "role": "Estagiário Back-End Java",
+      "period": "05/2024 – 10/2024",
+      "description": "Desenvolvimento de microsserviços com Java e Spring Boot. Implementação de acesso a dados com Spring Data JPA, JDBC e bancos relacionais/NoSQL. Escrita de testes unitários e documentação de APIs com Swagger/OpenAPI. Deploy e monitoramento em AWS EC2. Atuação em ambiente ágil com Scrum, GitFlow e revisão de código."
+    },
+    "prefeitura": {
+      "role": "Desenvolvedor Back-End Júnior",
+      "period": "08/2023 – Atual",
+      "description": "Desenvolvimento de automações em Python e JavaScript para processamento e análise de dados ambientais. Redução de ~60% do trabalho manual com Google Apps Script. Criação de dashboards analíticos em Power BI, aumentando ~70% a eficiência na tomada de decisões. Manipulação e padronização de dados geoespaciais com QGIS."
+    },
+    "ifal": {
+      "role": "Desenvolvedor Back-End Júnior (Voluntário)",
+      "period": "03/2023 – 03/2024",
+      "description": "Desenvolvimento de APIs REST em Golang para integração de dados hospitalares em parceria com a Prefeitura de Arapiraca. Uso de SQLC para geração de código seguro e tipado com PostgreSQL. Containerização de serviços com Docker e documentação de endpoints com Swagger. Participação em cerimônias ágeis (Scrum)."
+    }
+  },
+  "projects": {
+    "title": "Projetos",
+    "iscompatible": {
+      "role": "Desenvolvedor FullStack",
+      "period": "09/2022 até momento",
+      "description": "Esse projeto tem uma grande importância na minha vida pois nele não só pude por em prática meus conhecimentos, como também ajudar a sanar uma dor, pois alguma vez você já se viu com dúvidas na hora de montar o seu PC, questionando se aquele processador ou memória RAM eram compatíveis com a sua placa-mãe? Pois bem, o site \"Is compatible ?\" ou \"É compatível?\" foi desenvolvido justamente para aliviar essa preocupação."
+    },
+    "tubeload": {
+      "role": "Desenvolvedor FullStack",
+      "period": "06/2023 até 07/2023",
+      "description": "A ideia por trás deste projeto foi aprimorar minhas habilidades no consumo de APIs externas, então optei por criar um downloader para vídeos ou músicas do YouTube como forma de prática."
+    },
+    "apiLogin": {
+      "role": "Desenvolvedor backend",
+      "period": "08/2023 até 09/2023",
+      "description": "Desenvolvi esse projeto pois estava precisando de uma API para permitir o login e cadastro dos itens no site iscompatible, logo, decidi fazer com go para fugir um pouco do node.js, foi de bastante aprendizado esse projeto pois nele pude aplicar conceitos da arquitetura hexagonal."
+    }
+  },
+  "academic": {
+    "title": "Formação Acadêmica",
+    "start": "Início",
+    "expectedEnd": "Prev. de conclusão",
+    "course": "Curso",
+    "courseName": "Sistemas de Informação - SI / 8° período"
+  },
+  "certifications": {
+    "title": "Certificações",
+    "validationCode": "Código de validação",
+    "validationLink": "Link de validação",
+    "clickHere": "Clique aqui",
+    "validUntil": "Válido até"
+  },
+  "social": {
+    "title": "Redes sociais e Contato"
+  },
+  "youtube": {
+    "title": "Lives & Vídeos"
+  }
+}

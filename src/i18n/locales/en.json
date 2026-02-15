@@ -1,0 +1,76 @@
+{
+  "header": {
+    "role": "Back-End Developer | Java & Node.js",
+    "downloadCV": "Download Resume"
+  },
+  "about": {
+    "title": "About",
+    "description": "<strong>Back-End Developer</strong> with <strong>+3 years of experience</strong> focused on <strong>Node.js</strong> and <strong>Java (Spring Boot)</strong>. I work on REST APIs and microservices development, applying clean architecture, messaging, containers, and cloud.",
+    "description2": "I have complementary experience in <strong>Golang</strong> and <strong>Python</strong> for high-performance services and automations, but my main focus is delivering robust, scalable, and secure solutions with Node.js and Java.",
+    "description3": "Currently studying <strong>Information Systems</strong> at <strong>Federal Institute of Alagoas (IFAL)</strong> (8th semester). Outside of coding, I'm a loyal supporter of Asa Gigante and practice sports to maintain balance between mind and body."
+  },
+  "skills": {
+    "title": "Skills",
+    "mainLanguages": "Main Languages",
+    "backendFrameworks": "Back-End Frameworks",
+    "techDevops": "Technologies & DevOps",
+    "databases": "Databases",
+    "otherTech": "Other Technologies"
+  },
+  "experience": {
+    "title": "Experience",
+    "compass": {
+      "role": "Java Back-End Intern",
+      "period": "05/2024 – 10/2024",
+      "description": "Microservices development with Java and Spring Boot. Data access implementation with Spring Data JPA, JDBC, and relational/NoSQL databases. Unit testing and API documentation with Swagger/OpenAPI. Deployment and monitoring on AWS EC2. Working in agile environment with Scrum, GitFlow, and code review."
+    },
+    "prefeitura": {
+      "role": "Junior Back-End Developer",
+      "period": "08/2023 – Present",
+      "description": "Development of automations in Python and JavaScript for environmental data processing and analysis. ~60% reduction in manual work with Google Apps Script. Creation of analytical dashboards in Power BI, increasing ~70% efficiency in decision making. Manipulation and standardization of geospatial data with QGIS."
+    },
+    "ifal": {
+      "role": "Junior Back-End Developer (Volunteer)",
+      "period": "03/2023 – 03/2024",
+      "description": "REST API development in Golang for hospital data integration in partnership with the City of Arapiraca. Use of SQLC for safe and typed code generation with PostgreSQL. Service containerization with Docker and endpoint documentation with Swagger. Participation in agile ceremonies (Scrum)."
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "iscompatible": {
+      "role": "FullStack Developer",
+      "period": "09/2022 to present",
+      "description": "This project has great importance in my life because not only could I put my knowledge into practice, but also help solve a pain point. Have you ever had doubts when building your PC, wondering if that processor or RAM was compatible with your motherboard? Well, the site \"Is compatible?\" was developed precisely to relieve this concern."
+    },
+    "tubeload": {
+      "role": "FullStack Developer",
+      "period": "06/2023 to 07/2023",
+      "description": "The idea behind this project was to improve my skills in consuming external APIs, so I chose to create a YouTube video/music downloader as practice."
+    },
+    "apiLogin": {
+      "role": "Backend Developer",
+      "period": "08/2023 to 09/2023",
+      "description": "I developed this project because I needed an API to allow login and registration of items on the iscompatible site, so I decided to build it with Go to get away from node.js. This was a great learning project where I could apply hexagonal architecture concepts."
+    }
+  },
+  "academic": {
+    "title": "Academic Background",
+    "start": "Start",
+    "expectedEnd": "Expected graduation",
+    "course": "Course",
+    "courseName": "Information Systems - IS / 8th semester"
+  },
+  "certifications": {
+    "title": "Certifications",
+    "validationCode": "Validation code",
+    "validationLink": "Validation link",
+    "clickHere": "Click here",
+    "validUntil": "Valid until"
+  },
+  "social": {
+    "title": "Social Media & Contact"
+  },
+  "youtube": {
+    "title": "Lives & Videos"
+  }
+}
