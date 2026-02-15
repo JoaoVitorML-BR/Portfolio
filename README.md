@@ -6,7 +6,7 @@
 
 Portfolio pessoal desenvolvido em React + TypeScript, apresentando minha trajetória profissional, habilidades técnicas e projetos.
 
-🔗 **[Acesse o Portfolio](https://joaovitorml-br.github.io/Portfolio/)**
+🔗 **[Acesse o Portfolio](https://joaovt-portfolio.netlify.app/)**
 
 ---
 
