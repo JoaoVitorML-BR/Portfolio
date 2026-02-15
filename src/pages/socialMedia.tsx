@@ -1,11 +1,11 @@
 import { useTranslation } from '../hooks/useTranslation';
-import instagramIcon from '../img/instagram.png';
-import linkedinIcon from '../img/linkedin.png';
-import gmailIcon from '../img/gmail.png';
-import gitHubIcon from '../img/github.png';
+import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { SiGmail } from 'react-icons/si';
 
 export const SocialMedia: React.FC = () => {
     const { t } = useTranslation();
+    
+    const iconStyle = { fontSize: '40px', color: '#ffffff' };
     
     return (
         <>
@@ -13,20 +13,26 @@ export const SocialMedia: React.FC = () => {
             <h4 className='title-social-midia-and-contact'>{t('social.title')}</h4>
             <ul className='footer-icons d-flex justify-content-start'>
                 <li className='mx-2 li-icons'>
-                    <a href="https://github.com/JoaoVitorML-BR" target="blank"><img className='imagesFooter' alt="gitHub" src={gitHubIcon}></img></a>
+                    <a href="https://github.com/JoaoVitorML-BR" target="_blank" rel="noopener noreferrer">
+                        <FaGithub style={iconStyle} className="social-icon" />
+                    </a>
                     <p className='textStyleGeneral fw-light paragath-style-tecnology pt-2'>GitHub</p>
-                </li >
+                </li>
                 <li className='mx-2'>
-                    <a href="https://www.linkedin.com/in/jo%C3%A3o-vitorml-br/" target="blank"><img className='imagesFooter' alt="linkedin" src={linkedinIcon}></img></a>
+                    <a href="https://www.linkedin.com/in/jo%C3%A3o-vitorml-br/" target="_blank" rel="noopener noreferrer">
+                        <FaLinkedin style={{...iconStyle, color: '#0A66C2'}} className="social-icon" />
+                    </a>
                     <p className='textStyleGeneral fw-light paragath-style-tecnology pt-2'>LinkedIn</p>
                 </li>
                 <li className='mx-2'>
-                    <a href="https://www.instagram.com/joao_vitor_0o/" target="blank"><img className='imagesFooter' alt="instagram" src={instagramIcon}></img></a>
+                    <a href="https://www.instagram.com/joao_vitor_0o/" target="_blank" rel="noopener noreferrer">
+                        <FaInstagram style={{...iconStyle, color: '#E4405F'}} className="social-icon" />
+                    </a>
                     <p className='textStyleGeneral fw-light paragath-style-tecnology pt-2'>Instagram</p>
                 </li>
                 <li className='mx-2'>
-                    <a href="mailto:contatojoaovtml@gmail.com" target="blank">
-                        <img className='imagesFooter-gmail' alt="email" src={gmailIcon}></img>
+                    <a href="mailto:contatojoaovtml@gmail.com">
+                        <SiGmail style={{...iconStyle, color: '#EA4335'}} className="social-icon" />
                     </a>
                     <p className='textStyleGeneral fw-light paragath-style-tecnology pt-1'>Email</p>
                 </li>
