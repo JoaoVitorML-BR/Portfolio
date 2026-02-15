@@ -2,6 +2,9 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "dependencies": {
     "@google-cloud/translate": "^8.2.0",
     "@testing-library/jest-dom": "^5.17.0",

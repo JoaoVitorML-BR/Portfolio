@@ -59,7 +59,7 @@ src/
 ## 🚀 Como Executar
 
 ### Pré-requisitos
-- Node.js 18+
+- Node.js 22+
 - npm ou yarn
 
 ### Instalação
