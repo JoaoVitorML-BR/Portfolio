@@ -136,17 +136,18 @@ body {
 
 .image-container img {
   display: block;
-  width: 250px;
-  height: 100px;
+  width: 320px;
+  height: 160px;
   border-radius: 10px;
+  object-fit: cover;
 }
 
 .gradient-border {
   position: absolute;
   top: 0;
   left: 0;
-  width: 170px;
-  height: 100px;
+  width: 200px;
+  height: 160px;
   background: linear-gradient(to left,
       rgba(255, 255, 255, 0),
       rgba(255, 255, 255, 1));
@@ -172,25 +173,38 @@ body {
 .container-experiences {
   padding: 10px;
   padding-bottom: 10px;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+  border: 1px solid transparent;
 }
 
 .container-experiences:hover {
-  opacity: 98%;
-  background: linear-gradient(to bottom, #024583, #0a1e31);
-  border-radius: 10px;
+  background: linear-gradient(135deg, rgba(2, 69, 131, 0.6), rgba(10, 30, 49, 0.8));
+  border: 1px solid rgba(0, 166, 251, 0.3);
+  transform: translateX(8px);
+  box-shadow: 0 8px 25px rgba(0, 166, 251, 0.15);
 }
+
 .tecnologies-style {
   display: flex;
   flex-wrap: wrap;
 }
 
 .tecnologies-style p {
-  transition: opacity 0.3s ease;
-  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 10px;
-  padding: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
+  padding: 5px 10px;
+  margin: 4px;
+  background: rgba(255, 255, 255, 0.05);
+  cursor: default;
+}
+
+.tecnologies-style p:hover {
+  border-color: #00a6fb;
+  background: rgba(0, 166, 251, 0.1);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 166, 251, 0.2);
 }
 
 @media only screen and (max-width: 768px) {
@@ -275,4 +289,122 @@ body {
         #5a6c80,
         rgb(38, 227, 196));
   }
+}
+
+/* Botão Download CV */
+.btn-download-cv {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 12px;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #00a6fb, #0d47a1);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 166, 251, 0.3);
+}
+
+.btn-download-cv:hover {
+  background: linear-gradient(135deg, #0d47a1, #00a6fb);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 166, 251, 0.4);
+  color: white;
+}
+
+/* YouTube Section */
+.youtube-section {
+  margin-top: 40px;
+}
+
+.youtube-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.youtube-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.youtube-card:hover {
+  border-color: rgba(255, 0, 0, 0.3);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(255, 0, 0, 0.15);
+}
+
+.youtube-embed {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  /* 16:9 aspect ratio */
+  height: 0;
+}
+
+.youtube-embed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px 12px 0 0;
+}
+
+.youtube-info {
+  padding: 15px;
+}
+
+.youtube-info h4 {
+  margin: 0 0 8px 0;
+  font-size: 1.1rem;
+}
+
+.youtube-info p {
+  margin: 0;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* Language Toggle */
+.language-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 8px 16px;
+  cursor: pointer;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.language-toggle:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #00a6fb;
+}
+
+.language-toggle span {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.language-toggle span.active {
+  color: #00a6fb;
+  font-weight: 700;
+}
+
+.language-toggle .separator {
+  margin: 0 8px;
+  color: rgba(255, 255, 255, 0.3);
 }
