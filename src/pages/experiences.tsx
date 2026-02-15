@@ -22,13 +22,40 @@ const iconStyle = { marginRight: '6px', verticalAlign: 'middle' };
 
 export const Experiences = () => {
   const { t } = useTranslation();
-  
+
   return (
     <>
       <div>
         <div className='custom-divider'></div>
         <h3 className='textStyleGeneral'>{t('experience.title')}</h3>
         <div className="scrollable">
+
+          <div className='container-experiences'>
+            <a
+              href='https://web.arapiraca.al.gov.br/'
+              target="blank"
+              rel="noopener noreferrer"
+              className='link-no-underline'>
+              <h4 className='textStyleGeneral fw-normal fs-4'>Prefeitura Municipal de Arapiraca</h4>
+              <h5 className='textStyleGeneral fw-light fs-5'>{t('experience.prefeitura.role')}</h5>
+              <h6 className='textStyleGeneral fw-lighter paragath-style-tecnology'>{t('experience.prefeitura.period')}</h6>
+              <p className='textStyleGeneral fw-light paragath-style-tecnology'>
+                {t('experience.prefeitura.description')}
+              </p>
+              <div className='tecnologies-style textStyleGeneral'>
+                <p className='fw-lighter paragath-style-tecnology'><SiPython size={iconSize} style={{ ...iconStyle, color: '#3776AB' }} /> Python</p>
+                <p className='fw-lighter paragath-style-tecnology'><SiJavascript size={iconSize} style={{ ...iconStyle, color: '#F7DF1E' }} /> JavaScript</p>
+                <p className='fw-lighter paragath-style-tecnology'><SiGooglesheets size={iconSize} style={{ ...iconStyle, color: '#34A853' }} /> Google Apps Script</p>
+                <p className='fw-lighter paragath-style-tecnology'><FaChartBar size={iconSize} style={{ ...iconStyle, color: '#F2C811' }} /> Power BI</p>
+                <p className='fw-lighter paragath-style-tecnology'>QGIS</p>
+              </div>
+              <div className="image-container">
+                <img className="images-presentation" src={prefArapiracaImage} alt="Prefeitura de Arapiraca" />
+              </div>
+            </a>
+          </div>
+          <hr className="hr-style"></hr>
+          
           <div className='container-experiences'>
             <div className='gradient-broder'>
               <a
@@ -57,32 +84,6 @@ export const Experiences = () => {
                 </div>
               </a>
             </div>
-          </div>
-          <hr className="hr-style"></hr>
-
-          <div className='container-experiences'>
-            <a
-              href='https://web.arapiraca.al.gov.br/'
-              target="blank"
-              rel="noopener noreferrer"
-              className='link-no-underline'>
-              <h4 className='textStyleGeneral fw-normal fs-4'>Prefeitura Municipal de Arapiraca</h4>
-              <h5 className='textStyleGeneral fw-light fs-5'>{t('experience.prefeitura.role')}</h5>
-              <h6 className='textStyleGeneral fw-lighter paragath-style-tecnology'>{t('experience.prefeitura.period')}</h6>
-              <p className='textStyleGeneral fw-light paragath-style-tecnology'>
-                {t('experience.prefeitura.description')}
-              </p>
-              <div className='tecnologies-style textStyleGeneral'>
-                <p className='fw-lighter paragath-style-tecnology'><SiPython size={iconSize} style={{ ...iconStyle, color: '#3776AB' }} /> Python</p>
-                <p className='fw-lighter paragath-style-tecnology'><SiJavascript size={iconSize} style={{ ...iconStyle, color: '#F7DF1E' }} /> JavaScript</p>
-                <p className='fw-lighter paragath-style-tecnology'><SiGooglesheets size={iconSize} style={{ ...iconStyle, color: '#34A853' }} /> Google Apps Script</p>
-                <p className='fw-lighter paragath-style-tecnology'><FaChartBar size={iconSize} style={{ ...iconStyle, color: '#F2C811' }} /> Power BI</p>
-                <p className='fw-lighter paragath-style-tecnology'>QGIS</p>
-              </div>
-              <div className="image-container">
-                <img className="images-presentation" src={prefArapiracaImage} alt="Prefeitura de Arapiraca" />
-              </div>
-            </a>
           </div>
           <hr className="hr-style"></hr>
 
