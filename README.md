@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+# 🚀 Portfolio - João Vitor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=flat-square&logo=react)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-## Available Scripts
+Portfolio pessoal desenvolvido em React + TypeScript, apresentando minha trajetória profissional, habilidades técnicas e projetos.
 
-In the project directory, you can run:
+🔗 **[Acesse o Portfolio](https://joaovitorml-br.github.io/Portfolio/)**
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🌐 **Internacionalização (i18n)** - Suporte completo para Português e Inglês
+- 📱 **Design Responsivo** - Adaptado para desktop, tablet e mobile
+- 🎨 **React Icons** - Ícones vetoriais otimizados para melhor performance
+- ⚡ **Efeitos Hover** - Animações suaves para melhor experiência do usuário
+- 📄 **Download de CV** - Currículo disponível para download em PDF
+- 🔍 **SEO Otimizado** - Meta tags configuradas para melhor indexação
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tecnologias Utilizadas
 
-### `npm run build`
+| Categoria | Tecnologias |
+|-----------|-------------|
+| **Frontend** | React 18, TypeScript, Bootstrap 5 |
+| **Internacionalização** | react-i18next, i18next |
+| **Ícones** | react-icons (Font Awesome, Simple Icons) |
+| **Build** | Create React App, Webpack |
+| **Deploy** | GitHub Pages |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📂 Estrutura do Projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+src/
+├── components/          # Componentes reutilizáveis
+│   └── LanguageToggle   # Toggle de idioma PT/EN
+├── hooks/               # Custom hooks
+│   └── useTranslation   # Hook de tradução
+├── i18n/                # Configuração de internacionalização
+│   ├── locales/         # Arquivos de tradução (pt.json, en.json)
+│   └── index.ts         # Configuração do i18next
+├── pages/               # Páginas/seções do portfolio
+│   ├── about            # Sobre mim
+│   ├── experiences      # Experiências profissionais
+│   ├── languagesExperience  # Skills técnicas
+│   ├── certificates     # Certificações
+│   ├── projects         # Projetos
+│   └── socialMedia      # Redes sociais
+└── home/                # Página principal
+```
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Como Executar
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Pré-requisitos
+- Node.js 18+
+- npm ou yarn
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Instalação
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+# Clone o repositório
+git clone https://github.com/JoaoVitorML-BR/Portfolio.git
 
-## Learn More
+# Acesse a pasta
+cd Portfolio
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Instale as dependências
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Execute o projeto
+npm start
+```
 
-### Code Splitting
+O projeto estará disponível em `http://localhost:3000`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Build para Produção
 
-### Analyzing the Bundle Size
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 👨‍💻 Sobre Mim
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Desenvolvedor Backend com foco em **Java** e **Node.js**, experiência em arquitetura de microsserviços, APIs RESTful e integrações. Certificado **AWS Cloud Practitioner (CLF-C02)**.
 
-### Advanced Configuration
+### 📫 Contato
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **LinkedIn:** [João Vitor](https://www.linkedin.com/in/jo%C3%A3o-vitorml-br/)
+- **GitHub:** [JoaoVitorML-BR](https://github.com/JoaoVitorML-BR)
+- **Email:** contatojoaovtml@gmail.com
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📝 Licença
 
-### `npm run build` fails to minify
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+⭐ Se este projeto te ajudou, considere dar uma estrela!
