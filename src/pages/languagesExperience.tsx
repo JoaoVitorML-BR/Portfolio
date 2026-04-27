@@ -15,7 +15,8 @@ import {
     SiPython,
     SiRabbitmq,
     SiNginx,
-    SiDigitalocean
+    SiDigitalocean,
+    SiPowerbi
 } from 'react-icons/si';
 import { FaJava, FaAws, FaCode, FaDownload } from 'react-icons/fa';
 import { useTranslation } from '../hooks/useTranslation';
@@ -29,7 +30,7 @@ const iconStyle = { marginRight: '8px', verticalAlign: 'middle' };
 
 export const LanguagesAndTecnologiesExperience: React.FC = () => {
     const { t } = useTranslation();
-    
+
     return (
         <>
             <div className='sticky-content pt-4'>
@@ -56,14 +57,13 @@ export const LanguagesAndTecnologiesExperience: React.FC = () => {
 
                 <h5 className='textStyle'>{t('skills.mainLanguages')}</h5>
                 <div className='tecnologies-style textStyleGeneral'>
-                    <p className='fw-lighter paragath-style-tecnology'><FaJava size={iconSize} style={{ ...iconStyle, color: '#007396' }} /> Java</p>
+                    <p className='fw-lighter paragath-style-tecnology'><SiGo size={iconSize} style={{ ...iconStyle, color: '#00ADD8' }} /> Golang</p>
                     <p className='fw-lighter paragath-style-tecnology'><SiTypescript size={iconSize} style={{ ...iconStyle, color: '#3178C6' }} /> TypeScript</p>
                     <p className='fw-lighter paragath-style-tecnology'><SiJavascript size={iconSize} style={{ ...iconStyle, color: '#F7DF1E' }} /> JavaScript</p>
                 </div>
 
                 <h5 className='textStyle'>{t('skills.backendFrameworks')}</h5>
                 <div className='tecnologies-style textStyleGeneral'>
-                    <p className='fw-lighter paragath-style-tecnology'><SiSpringboot size={iconSize} style={{ ...iconStyle, color: '#6DB33F' }} /> Spring Boot</p>
                     <p className='fw-lighter paragath-style-tecnology'><SiNestjs size={iconSize} style={{ ...iconStyle, color: '#E0234E' }} /> NestJS</p>
                     <p className='fw-lighter paragath-style-tecnology'><SiExpress size={iconSize} style={{ ...iconStyle, color: '#FFFFFF' }} /> Express</p>
                 </div>
@@ -88,9 +88,11 @@ export const LanguagesAndTecnologiesExperience: React.FC = () => {
                 <h5 className='textStyle'>{t('skills.otherTech')}</h5>
                 <div className='tecnologies-style textStyleGeneral'>
                     <p className='fw-lighter paragath-style-tecnology'><SiReact size={iconSize} style={{ ...iconStyle, color: '#61DAFB' }} /> React</p>
-                    <p className='fw-lighter paragath-style-tecnology'><SiGo size={iconSize} style={{ ...iconStyle, color: '#00ADD8' }} /> Golang</p>
+                    <p className='fw-lighter paragath-style-tecnology'><FaJava size={iconSize} style={{ ...iconStyle, color: '#007396' }} /> Java</p>
+                    <p className='fw-lighter paragath-style-tecnology'><SiSpringboot size={iconSize} style={{ ...iconStyle, color: '#6DB33F' }} /> Spring Boot</p>
                     <p className='fw-lighter paragath-style-tecnology'><SiPython size={iconSize} style={{ ...iconStyle, color: '#3776AB' }} /> Python</p>
                     <p className='fw-lighter paragath-style-tecnology'><SiNginx size={iconSize} style={{ ...iconStyle, color: '#009639' }} /> Nginx</p>
+                    <p className='fw-lighter paragath-style-tecnology'><SiPowerbi size={iconSize} style={{ ...iconStyle, color: '#009639' }} /> PowerBI</p>
                 </div>
 
                 <Certificates />
