@@ -5,8 +5,8 @@
   },
   "about": {
     "title": "Sobre",
-    "description": "<strong>Desenvolvedor Back-End</strong> com <strong>+3 anos de experiência</strong> focado em <strong>Node.js</strong> e <strong>Java (Spring Boot)</strong>. Atuo no desenvolvimento de APIs REST e microsserviços, aplicando arquitetura limpa, mensageria, containers e cloud.",
-    "description2": "Possuo experiência complementar em <strong>Golang</strong> e <strong>Python</strong> para serviços de alta performance e automações, mas meu foco principal é entregar soluções robustas, escaláveis e seguras com Node.js e Java.",
+    "description": "<strong>Desenvolvedor Back-End</strong> com <strong>+3 anos de experiência</strong> focado em <strong>Node.js</strong> e <strong>Golang</strong>. Atuo no desenvolvimento de APIs REST e microsserviços, aplicando arquitetura limpa, mensageria, containers e cloud.",
+    "description2": "Possuo experiência complementar em <strong>Java</strong> e <strong>Python</strong> para serviços e automações, mas meu foco principal é entregar soluções robustas, escaláveis e seguras com Node.js e Go.",
     "description3": "Atualmente curso <strong>Sistemas de Informação</strong> no <strong>Instituto Federal de Alagoas (IFAL)</strong> (8° período). Fora do código, sou torcedor fiel do Asa Gigante e pratico esportes para manter o equilíbrio entre mente e corpo."
   },
   "skills": {

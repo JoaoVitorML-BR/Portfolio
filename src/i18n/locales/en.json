@@ -5,8 +5,8 @@
   },
   "about": {
     "title": "About",
-    "description": "<strong>Back-End Developer</strong> with <strong>+3 years of experience</strong> focused on <strong>Node.js</strong> and <strong>Java (Spring Boot)</strong>. I work on REST APIs and microservices development, applying clean architecture, messaging, containers, and cloud.",
-    "description2": "I have complementary experience in <strong>Golang</strong> and <strong>Python</strong> for high-performance services and automations, but my main focus is delivering robust, scalable, and secure solutions with Node.js and Java.",
+    "description": "<strong>Back-End Developer</strong> with <strong>+3 years of experience</strong> focused on <strong>Node.js</strong> and <strong>Golang</strong>. I work on REST APIs and microservices development, applying clean architecture, messaging, containers, and cloud.",
+    "description2": "I have complementary experience in <strong>Java</strong> and <strong>Python</strong> for services and automations, but my main focus is delivering robust, scalable, and secure solutions with Node.js and Go.",
     "description3": "Currently studying <strong>Information Systems</strong> at <strong>Federal Institute of Alagoas (IFAL)</strong> (8th semester). Outside of coding, I'm a loyal supporter of Asa Gigante and practice sports to maintain balance between mind and body."
   },
   "skills": {
