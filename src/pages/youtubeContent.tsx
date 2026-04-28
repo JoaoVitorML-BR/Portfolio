@@ -9,16 +9,12 @@ interface Video {
 }
 
 // Adicione seus vídeos aqui - use o ID do YouTube (parte após v= na URL)
+// https://youtu.be/MFd7zKm5xGs?si=m1GpkxkcRQxFEQF1
 const videos: Video[] = [
     {
-        id: 'SEU_VIDEO_ID_1',
-        title: 'Título do Vídeo 1',
-        description: 'Descrição breve do conteúdo'
-    },
-    {
-        id: 'SEU_VIDEO_ID_2',
-        title: 'Título do Vídeo 2',
-        description: 'Descrição breve do conteúdo'
+        id: 'MFd7zKm5xGs',
+        title: 'Cópia rasa vs Cópia profunda em Go',
+        description: 'Entendendo o conceito de cópia rasa e profunda em golang e um exemplo de uso'
     }
 ];
 
